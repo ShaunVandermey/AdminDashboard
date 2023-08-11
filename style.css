@@ -1,11 +1,35 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.column{
+    /* Anything that is meant to be a column parent */
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    /* Anything that is meant to be a row */
+    display: flex;
+    flex-direction: row;
+}
+
+#projectsGrid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+/*
 .navIcon{
 
 }
 
 .navText{
-    
+
 }
 
 .firstNav{
-    /*Must be twice as large as the other navText and navIcons*/
-}
+    /*Must be twice as large as the other navText and navIcons
+}*/
