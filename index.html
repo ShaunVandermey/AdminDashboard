@@ -7,51 +7,51 @@
     <title>My Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="row">
+<body id="allContent" class="row">
     <div id="navPane" class="column">
         <div class="navSegment column">
-            <div class="navOption row">
-                <img src="" alt="A logo for the dashboard." class="navIcon firstNav">
-                <div class="navText firstNav">Dashboard</div>
+            <div id="firstNavOption" class="navOption row">
+                <img id="firstNavIcon" src="src/icons/cards-playing-club-multiple.svg" alt="A logo for the dashboard." class="navIcon">
+                <div id="firstNavText" class="navText">Dashboard</div>
             </div>
         </div>
         <div class="navSegment" class="column">
             <div class="navOption row">
-                <img src="" alt="A home icon." class="navIcon">
+                <img src="src/icons/home-variant.svg" alt="A home icon." class="navIcon">
                 <div class="navText">Home</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A profile icon." class="navIcon">
+                <img src="src/icons/card-account-details.svg" alt="A profile icon." class="navIcon">
                 <div class="navText">Profile</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A message icon." class="navIcon">
+                <img src="src/icons/message.svg" alt="A message icon." class="navIcon">
                 <div class="navText">Messages</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A history icon." class="navIcon">
+                <img src="src/icons/clock-time-eight.svg" alt="A history icon." class="navIcon">
                 <div class="navText">History</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A task icon." class="navIcon">
+                <img src="src/icons/list-box.svg" alt="A task icon." class="navIcon">
                 <div class="navText">Tasks</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A community icon." class="navIcon">
+                <img src="src/icons/account-group.svg" alt="A community icon." class="navIcon">
                 <div class="navText">Communities</div>
             </div>
         </div>
         <div class="navSegment column">
             <div class="navOption row">
-                <img src="" alt="A settings icon." class="navIcon">
+                <img src="src/icons/cog-box.svg" alt="A settings icon." class="navIcon">
                 <div class="navText">Settings</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A support icon." class="navIcon">
+                <img src="src/icons/help-circle.svg" alt="A support icon." class="navIcon">
                 <div class="navText">Support</div>
             </div>
             <div class="navOption row">
-                <img src="" alt="A privacy icon." class="navIcon">
+                <img src="src/icons/shield-lock.svg" alt="A privacy icon." class="navIcon">
                 <div class="navText">Privacy</div>
             </div>
         </div>
@@ -60,86 +60,86 @@
         <div id="profilePane" class="column">
             <div id="searchAndProfileSegment" class="row">
                 <div id="searchBox" class="row">
-                    <img src="" alt="A search icon." id="searchIcon">
                     <input type="text" name="" id="searchInput">
+                    <img src="src/icons/magnify.svg" alt="A search icon." id="searchIcon">
                 </div>
                 <div id="profile" class="row">
-                    <img src="" alt="An alert icon." id="alertIcon">
-                    <img src="" alt="A profile picture from your profile." id="profileImageSmall">
+                    <img src="src/icons/bell.svg" alt="An alert icon." id="alertIcon">
+                    <img src="" alt="Your pic." id="profileImageSmall">
                     <div id="profileName">Firstname Lastname</div>
                 </div>
             </div>
             <div id="welcomeAndQuickActions" class="row">
                 <div id="welcomeProfile" class="row">
-                    <img src="" alt="A larger profile picture from tyour profile." id="profileImageLarge">
+                    <img src="" alt="Your pic, large." id="profileImageLarge">
                     <div id="welcomeMessage" class="column">
                         <div id="smallWelcome">Hello,</div>
                         <div id="profileNameAndAtsign">Firstname Lastname Atsign</div>
                     </div>
                 </div>
                 <div id="quickActions" class="row">
-                    <input type="button" value="" id="newButton">
-                    <input type="button" value="" id="uploadButton">
-                    <input type="button" value="" id="shareButton">
+                    <input type="button" value="New" id="newButton">
+                    <input type="button" value="Upload" id="uploadButton">
+                    <input type="button" value="Share" id="shareButton">
                 </div>
             </div>
         </div>
         <div id="projectPane" class="row">
-            <div id="projectsSegment" class="column">
+            <div id="projectSegment" class="column">
                 <div class="mainHeading">Your projects</div>
                 <div id="projectsGrid">
                     <div class="project">
                         <div class="projectName">Dummy Project 1</div>
                         <div class="projectSummary">Lorem ipsum dolor si amet.</div>
                         <div class="projectActionIcons">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
+                            <img src="src/icons/star-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/eye-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/transit-connection-variant.svg" alt="" class="actionIcon">
                         </div>
                     </div>
                     <div class="project">
                         <div class="projectName">Dummy Project 2</div>
                         <div class="projectSummary">Lorem ipsum dolor si amet.</div>
                         <div class="projectActionIcons">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
+                            <img src="src/icons/star-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/eye-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/transit-connection-variant.svg" alt="" class="actionIcon">
                         </div>
                     </div>
                     <div class="project">
                         <div class="projectName">Dummy Project 3</div>
                         <div class="projectSummary">Lorem ipsum dolor si amet.</div>
                         <div class="projectActionIcons">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
+                            <img src="src/icons/star-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/eye-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/transit-connection-variant.svg" alt="" class="actionIcon">
                         </div>
                     </div>
                     <div class="project">
                         <div class="projectName">Dummy Project 4</div>
                         <div class="projectSummary">Lorem ipsum dolor si amet.</div>
                         <div class="projectActionIcons">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
+                            <img src="src/icons/star-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/eye-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/transit-connection-variant.svg" alt="" class="actionIcon">
                         </div>
                     </div>
                     <div class="project">
                         <div class="projectName">Dummy Project 5</div>
                         <div class="projectSummary">Lorem ipsum dolor si amet.</div>
                         <div class="projectActionIcons">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
+                            <img src="src/icons/star-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/eye-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/transit-connection-variant.svg" alt="" class="actionIcon">
                         </div>
                     </div>
                     <div class="project">
                         <div class="projectName">Dummy Project 6</div>
                         <div class="projectSummary">Lorem ipsum dolor si amet.</div>
                         <div class="projectActionIcons">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
-                            <img src="" alt="" class="actionIcon">
+                            <img src="src/icons/star-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/eye-outline.svg" alt="" class="actionIcon">
+                            <img src="src/icons/transit-connection-variant.svg" alt="" class="actionIcon">
                         </div>
                     </div>
                 </div>
