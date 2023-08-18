@@ -143,10 +143,19 @@ img{
 
 #profile{
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
 }
 
 #welcomeAndQuickActions{
     align-items: center;
+}
+
+#welcomeProfile{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
 }
 
 #welcomeMessage{
@@ -243,6 +252,16 @@ img{
     gap: 15px;
 }
 
+#trending{
+    min-height: 10%;
+    max-height: 40%;
+}
+
+#trendingPeople{
+    gap: 20%;
+    justify-content: space-evenly;
+}
+
 .trendingPerson{
     display: flex;
     flex-direction: row;
@@ -269,6 +288,12 @@ img{
     padding: 10px 0px;
     font-weight: 900;
     font-size: large;
+}
+
+.personIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
 }
 /*
 .navIcon{
