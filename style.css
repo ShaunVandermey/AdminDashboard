@@ -203,7 +203,7 @@ img{
     justify-content: space-between;
 }
 
-.newsSummary, .projectSummary{
+.newsSummary, .projectSummary, .personDesc{
     color: #888888;
     font-size: 0.9em;
 }
@@ -224,6 +224,13 @@ img{
     gap: 15px;
 }
 
+.trendingPerson{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 5%;
+}
+
 .itemBubble{
     background-color: #FFFFFF;
     display: flex;
@@ -235,7 +242,7 @@ img{
     box-shadow: 1px 1px 1px;
 }
 
-.projectName, .newsName{
+.projectName, .newsName, .personAt{
     font-weight: 900;
 }
 
